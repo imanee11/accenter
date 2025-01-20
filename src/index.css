@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  /* font-family: "Poppins", sans-serif; */
+  /* font-weight: 100; */
+  font-style: normal;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */  
+}
+
+
+.hero {
+  position: relative; /* To make it a containing block for the overlay */
+  background-image: url(./assets/images/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+  background-attachment: fixed;
+}
+
+/* Tablet Screens (768px and up) */
+@media (max-width: 1024px) {
+  .hero {
+    background-attachment: scroll; /* Fixed attachment can cause issues on some tablets */
+    height: 85vh; /* Reduce height for better view on tablets */
+  }
+}
+
+/* Phone Screens (767px and below) */
+@media (max-width: 767px) {
+  .hero {
+    background-attachment: scroll; /* Fixed attachment can be problematic on phones */
+    height: 60vh; /* Further reduce height for smaller screens */
+  }
+}
+
+
+

@@ -4,7 +4,20 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#64929f',
+        secondary: '#F5ECD5',
+        accent: '#FFFAEC',
+        likeblack: '#3D3D3D',
+      },
+      fontFamily: {
+        // sans: ['Lato', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
+        baloo: ['"Baloo Thambi 2"', 'cursive'], 
+
+      },
+    },
   },
   plugins: [],
 }
