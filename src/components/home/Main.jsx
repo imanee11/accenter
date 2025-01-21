@@ -206,15 +206,9 @@ const Main = () => {
                                     {tabs.find((tab) => tab.id === activeTab)?.content}
                                 </div>
                             </div>
-
-
-
                         </section>
                     </section>
                 </section>
-
-
-
             </div>
 
         </>
