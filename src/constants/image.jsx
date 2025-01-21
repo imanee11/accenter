@@ -8,7 +8,6 @@ export default{
     pic5 : require("../assets/images/pic5.jpg"),
     pic6 : require("../assets/images/pic6.jpg"),
     pic7 : require("../assets/images/pic7.jpg"),
-    pic5 : require("../assets/images/pic5.jpg"),
-    pic5 : require("../assets/images/pic5.jpg"),
+    pic8 : require("../assets/images/pic8.jpg"),
 
 }

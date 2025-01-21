@@ -187,7 +187,7 @@ const Main = () => {
 
 
                         {/* services */}
-                        <section id='services' className="lg:px-[10vw] px-[7vw] lg:pt-[15vh] lg:pb-[10vh] pt-[7vh] font-baloo">
+                        <section id='services' className="lg:px-[10vw] px-[7vw] lg:pt-[15vh] lg:pb-[10vh] pt-[7vh] pb-[4vh] font-baloo">
                             <p className=" text-likeblack font-sans  text-center text-[19px] uppercase font-bold  ">Nos services</p>
                             <div className="w-full mx-auto lg:pt-8 pt-4">
                                 {/* Tab Buttons */}
@@ -215,8 +215,8 @@ const Main = () => {
 
 
                         {/* atouts */}
-                        <section className='lg:px-[10vw] px-[7vw] lg:py-[10vh] pt-[7vh] font-baloo bg-primary/10'>
-                            <p className=" text-likeblack font-sans  text-center text-[19px] uppercase font-bold pb-[5vh] ">Nos atouts</p>
+                        <section className='lg:px-[10vw] px-[7vw] lg:py-[10vh] py-[5vh] font-baloo bg-primary/10'>
+                            <p className=" text-likeblack font-sans  text-center text-[19px] uppercase font-bold lg:pb-[5vh] pb-[3vh] ">Nos atouts</p>
                             {/* <p>Succès de haut niveau !</p> */}
                             <Carousel/>
 
