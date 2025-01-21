@@ -132,10 +132,10 @@ const Main = () => {
                     </div>
 
                     {/* Additional Section */}
-                    <section className="lg:px-[10vw] px-[7vw] bg-white rounded-t-[3rem] ">
+                    <section className=" bg-white rounded-t-[3rem] ">
 
                         {/* about */}
-                        <section className="lg:pt-[10vh] pt-[7vh] font-baloo " id='about'>
+                        <section className="lg:px-[10vw] px-[7vw] lg:pt-[10vh] pt-[7vh] font-baloo " id='about'>
                             {/* <p className='font-baloo pt-4'>Confiez-nous la gestion de votre comptabilité et bénéficiez d'un service personnalisé alliant expertise française et marocaine. Simplifiez vos démarches et concentrez-vous sur l’essentiel.</p> */}
 
                             {/* border-l-[4px] pl-3 border-primary */}
@@ -149,7 +149,7 @@ const Main = () => {
 
                                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-3 gap-3 pt-5">
 
-                                        <div className="flex flex-col p-4 rounded-xl  border-[1px] border-gray-300 bg-primary/5 hover:bg-primary/25 cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] hover:scale-105 transition-transform duration-300 ">
+                                        <div className="flex flex-col p-4 rounded-xl  border-[1px] border-gray-300 bg-primary/5  cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] hover:scale-105 transition-transform duration-300 ">
                                             <div className=" text-primary rounded-full  mb-4 inline-block">
                                                 <FaCheckCircle className="text-3xl" />
                                             </div>
@@ -187,7 +187,7 @@ const Main = () => {
 
 
                         {/* services */}
-                        <section id='services' className="lg:py-[15vh] pt-[7vh] font-baloo">
+                        <section id='services' className="lg:px-[10vw] px-[7vw] lg:pt-[15vh] lg:pb-[10vh] pt-[7vh] font-baloo">
                             <p className=" text-likeblack font-sans  text-center text-[19px] uppercase font-bold  ">Nos services</p>
                             <div className="w-full mx-auto lg:pt-8 pt-4">
                                 {/* Tab Buttons */}
@@ -214,8 +214,13 @@ const Main = () => {
                         </section>
 
 
-                        {/*  */}
-                        <Carousel/>
+                        {/* atouts */}
+                        <section className='lg:px-[10vw] px-[7vw] lg:py-[10vh] pt-[7vh] font-baloo bg-primary/10'>
+                            <p className=" text-likeblack font-sans  text-center text-[19px] uppercase font-bold pb-[10vh] ">Nos atouts</p>
+                            {/* <p>Succès de haut niveau !</p> */}
+                            <Carousel/>
+
+                        </section>
                         
                     </section>
                 </section>
