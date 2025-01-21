@@ -19,7 +19,7 @@ const Main = () => {
             id: 1,
             title: "Sous traitance Comptable",
             content: (
-                <div className='flex flex-col flex-col-reverse lg:flex-row gap-5'>
+                <div className='flex flex-col-reverse lg:flex-row gap-5'>
                     <div className='lg:w-[50vw]'>
                         <p className="pb-3 text-likeblack font-semibold text-[18px]">
                             Sous traitance pour cabinets d'expertise comptable
@@ -50,7 +50,7 @@ const Main = () => {
             id: 2,
             title: "Sous traitance paie et social",
             content: (
-                <div className='flex flex-col flex-col-reverse lg:flex-row gap-5'>
+                <div className='flex  flex-col-reverse lg:flex-row gap-5'>
                     <div className='lg:w-[50vw]'>
                         <p className="pb-3 text-likeblack font-semibold text-[18px]">
                             Gestion externalisée efficace de la paie et des ressources humaines
@@ -81,7 +81,7 @@ const Main = () => {
             id: 3,
             title: "Prestations Connexes",
             content: (
-                <div className='flex flex-col flex-col-reverse lg:flex-row gap-5'>
+                <div className='flex  flex-col-reverse lg:flex-row gap-5'>
                     <div className='lg:w-[50vw]'>
                         <p className="pb-3 text-likeblack font-semibold text-[18px]">
                             Gestion externalisée des outils d’aide à la prise de décisions
@@ -182,7 +182,7 @@ const Main = () => {
 
 
                         {/* services */}
-                        <section id='services' className="lg:py-[15vh] font-baloo">
+                        <section id='services' className="lg:py-[15vh] pt-[7vh] font-baloo">
                             <p className=" text-likeblack font-sans  text-center text-[19px] uppercase font-bold  ">Nos services</p>
                             <div className="w-full mx-auto lg:pt-8 pt-4">
                                 {/* Tab Buttons */}
