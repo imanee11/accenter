@@ -12,6 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 import image from '../../constants/image';
+import Carousel from './Carousel';
 
 
 const Main = () => {
@@ -211,6 +212,11 @@ const Main = () => {
                                 </div>
                             </div>
                         </section>
+
+
+                        {/*  */}
+                        <Carousel/>
+                        
                     </section>
                 </section>
             </div>
