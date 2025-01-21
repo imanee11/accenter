@@ -5,5 +5,10 @@ export default{
     pic2 : require("../assets/images/pic2.jpg"),
     pic3 : require("../assets/images/pic3.jpg"),
     pic4 : require("../assets/images/pic4.jpg"),
+    pic5 : require("../assets/images/pic5.jpg"),
+    pic6 : require("../assets/images/pic6.jpg"),
+    pic7 : require("../assets/images/pic7.jpg"),
+    pic5 : require("../assets/images/pic5.jpg"),
+    pic5 : require("../assets/images/pic5.jpg"),
 
 }

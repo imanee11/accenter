@@ -50,7 +50,7 @@ function Carousel() {
         <div className="slider-container">
             <Slider {...settings}>
                 <div className="p-2 ">
-                    <div className="flex flex-col  rounded-xl  border-[1px] border-gray-300 bg-white  cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]  transition-transform duration-300 ">
+                    <div className=" h-[78vh] flex flex-col  rounded-xl  border-[1px] border-gray-300 bg-white  cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]  transition duration-300 ">
                         <div className="">
                             <img src={image.pic4} alt="" className="rounded-t-xl" />
                         </div>
@@ -62,10 +62,10 @@ function Carousel() {
                     </div>
 
                 </div>
-                <div className="p-2">
-                    <div className="flex flex-col  rounded-xl  border-[1px] border-gray-300 bg-white  cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]  transition-transform duration-300 ">
+                <div className="p-2 pb-5">
+                    <div className="h-[78vh] flex flex-col  rounded-xl  border-[1px] border-gray-300 bg-white  cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]  transition duration-300 ">
                         <div className="">
-                            <img src={image.pic4} alt="" className="rounded-t-xl" />
+                            <img src={image.pic5} alt="" className="rounded-t-xl" />
                         </div>
                         <div className="p-4">
                             <p className="text-lg font-semibold">Assurer la qualité de vos services</p>
@@ -73,12 +73,30 @@ function Carousel() {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <h3>3</h3>
+                <div className="p-2 pb-5">
+                    <div className="h-[78vh] flex flex-col  rounded-xl  border-[1px] border-gray-300 bg-white  cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]  transition duration-300 ">
+                        <div className="">
+                            <img src={image.pic6} alt="" className="rounded-t-xl" />
+                        </div>
+                        <div className="p-4">
+                            <p className="text-lg font-semibold">Exploiter vos ressources</p>
+                            <p className="mt-2 text-likeblack">Avec l’appui des experts d’AC Center, déléguez les tâches qui ne relèvent pas de votre cœur de métier et concentrez-vous pleinement sur vos priorités stratégiques. Vous gagnerez ainsi du temps et de l’énergie pour approfondir vos réflexions et faire avancer vos projets.</p>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <h3>4</h3>
+
+                <div className="p-2 pb-5">
+                    <div className="h-[78vh] flex flex-col  rounded-xl  border-[1px] border-gray-300 bg-white  cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]  transition duration-300 ">
+                        <div className="">
+                            <img src={image.pic7} alt="" className="rounded-t-xl" />
+                        </div>
+                        <div className="p-4">
+                            <p className="text-lg font-semibold">Assurer la sécurité de vos données</p>
+                            <p className="mt-2 text-likeblack">Vos informations seront stockées en toute sécurité sur un serveur protégé et fiable.</p>
+                        </div>
+                    </div>
                 </div>
+
                 <div>
                     <h3>5</h3>
                 </div>

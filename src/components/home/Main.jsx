@@ -216,7 +216,7 @@ const Main = () => {
 
                         {/* atouts */}
                         <section className='lg:px-[10vw] px-[7vw] lg:py-[10vh] pt-[7vh] font-baloo bg-primary/10'>
-                            <p className=" text-likeblack font-sans  text-center text-[19px] uppercase font-bold pb-[10vh] ">Nos atouts</p>
+                            <p className=" text-likeblack font-sans  text-center text-[19px] uppercase font-bold pb-[5vh] ">Nos atouts</p>
                             {/* <p>Succès de haut niveau !</p> */}
                             <Carousel/>
 
