@@ -2,7 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 import image from "../../constants/image";
 
-
 import { RxDotFilled } from "react-icons/rx";
 
 
@@ -15,9 +14,10 @@ function Carousel() {
         slidesToScroll: 3,
         initialSlide: 0,
         slidesToScroll: 1,
-        // autoplay: true,
-        // autoplaySpeed: 2000,
-        // pauseOnHover: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: true,
+        
 
         responsive: [
             {

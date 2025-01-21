@@ -13,7 +13,7 @@
 
 .hero {
   position: relative; /* To make it a containing block for the overlay */
-  background-image: url(./assets/images/bg.png);
+  background-image: url(./assets/images/top-view-paper-clip-with-copy-space.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
