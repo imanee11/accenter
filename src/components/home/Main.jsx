@@ -182,34 +182,7 @@ const Main = () => {
 
 
                         {/* services */}
-                        <section id='services' className="lg:py-[15vh] pt-[7vh] font-baloo">
-                            <p className=" text-likeblack font-sans  text-center text-[19px] uppercase font-bold  ">Nos services</p>
-                            <div className="w-full mx-auto lg:pt-8 pt-4">
-                                {/* Tab Buttons */}
-                                <div className="flex flex-wrap gap-[2vw] justify-center border-b border-gray-300">
-                                    {tabs.map((tab) => (
-                                        <button
-                                            key={tab.id}
-                                            onClick={() => setActiveTab(tab.id)}
-                                            className={`px-6 py-2 text-[15px] font-semibold transition duration-300 ${activeTab === tab.id
-                                                ? "text-primary border-b-2 border-primary"
-                                                : "text-gray-500 hover:text-primary"
-                                                }`}
-                                        >
-                                            {tab.title}
-                                        </button>
-                                    ))}
-                                </div>
 
-                                {/* Tab Content */}
-                                <div className=" pt-[5vh]">
-                                    {tabs.find((tab) => tab.id === activeTab)?.content}
-                                </div>
-                            </div>
-
-
-
-                        </section>
                     </section>
                 </section>
 
