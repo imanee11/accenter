@@ -29,7 +29,7 @@ const NavBar = () => {
     return (
         <>
             <nav
-                className={`flex items-center justify-between px-[5vw] py-4 fixed top-0 right-0 left-0 z-50 transition-all duration-300 ${
+                className={`nav flex items-center justify-between px-[5vw] py-4 fixed top-0 right-0 left-0 z-50 transition-all duration-300 ${
                     isScrolled ? "bg-white shadow-md" : "bg-transparent"
                 }`}
             >
@@ -42,16 +42,28 @@ const NavBar = () => {
                     />
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex space-x-8 font-baloo">
-                        <li className="font-semibold text-[15px] text-likeblack hover:text-secondary transition duration-300 cursor-pointer">
+                        <li className={`font-semibold text-[15px]  hover:text-secondary transition duration-300 cursor-pointer ${
+                            isScrolled ? "text-likeblack" : "text-white"
+                        }`}
+                        >
                             <a href="#home">Accueil</a>
                         </li>
-                        <li className="font-semibold text-[15px] text-likeblack hover:text-secondary transition duration-300 cursor-pointer">
+                        <li className={`font-semibold text-[15px]  hover:text-secondary transition duration-300 cursor-pointer ${
+                            isScrolled ? "text-likeblack" : "text-white"
+                        }`}
+                        >                            
                             <a href="#about">À propos</a>
                         </li>
-                        <li className="font-semibold text-[15px] text-likeblack hover:text-secondary transition duration-300 cursor-pointer">
+                        <li className={`font-semibold text-[15px]  hover:text-secondary transition duration-300 cursor-pointer ${
+                            isScrolled ? "text-likeblack" : "text-white"
+                        }`}
+                        >                           
                             <a href="#services">Services</a>
                         </li>
-                        <li className="font-semibold text-[15px] text-likeblack hover:text-secondary transition duration-300 cursor-pointer">
+                        <li className={`font-semibold text-[15px]  hover:text-secondary transition duration-300 cursor-pointer ${
+                            isScrolled ? "text-likeblack" : "text-white"
+                        }`}
+                        >
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
@@ -59,7 +71,7 @@ const NavBar = () => {
 
                 {/* Right Section */}
                 <div className="flex items-center space-x-4">
-                    <button className="hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] bg-secondary hover:bg-secondary text-likeblack px-5 py-[2vh] rounded-full font-semibold text-[14px] overflow-hidden group transition duration-300">
+                    <button className="hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] bg-secondary  text-likeblack px-5 py-[2vh] rounded-full font-semibold text-[14px] overflow-hidden group transition duration-300">
                         <span className="">
                             <a
                                 href="tel:+212745026956"

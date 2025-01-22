@@ -11,15 +11,17 @@
 }
 
 
-.hero {
-  position: relative; /* To make it a containing block for the overlay */
-  background-image: url(./assets/images/top-view-paper-clip-with-copy-space.jpg);
+/* .hero {
+  position: relative; 
+  background-image: url(./assets/images/two-male-colleague-working-office.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 95vh;
   background-attachment: fixed;
-}
+} */
+
+
 
 /* Tablet Screens (768px and up) */
 @media (max-width: 1024px) {

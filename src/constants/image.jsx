@@ -1,7 +1,7 @@
 export default{
     logo2 : require("../assets/images/logo2.png"),
     bg : require("../assets/images/bg.png"),
-    bg2 : require("../assets/images/top-view-paper-clip-with-copy-space.jpg"),
+    bg2 : require("../assets/images/two-male-colleague-working-office.jpg"),
 
     pic1 : require("../assets/images/pic1.jpg"),
     pic2 : require("../assets/images/pic2.jpg"),
