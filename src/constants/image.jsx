@@ -7,6 +7,9 @@ export default{
     bgC3 : require("../assets/images/bgC3.jpg"),
     bgC4 : require("../assets/images/bgC4.jpg"),
 
+    // bg3 : require("../assets/images/Purple, Pink and Blue Liquid Art On Trend Virtual Background.png"),
+
+
     pic1 : require("../assets/images/pic1.jpg"),
     pic2 : require("../assets/images/pic2.jpg"),
     pic3 : require("../assets/images/pic3.jpg"),
