@@ -47,11 +47,11 @@ const FirstCarousel = () => {
 
     return (
         <>
-            <div className='overflow-hidden h-[100vh]  '>
+            <div className='overflow-hidden h-[100vh] hero  '>
                 <NavBar />
                 <Slider {...settings}>
-                    <div className='relative'>
-                        <img src={image.bg2} alt="" className='h-[90vh] w-[100vw] object-cover' />
+                    <div className='relative h-[90vh] w-[100vw]'>
+                        {/* <img src={image.bg2} alt="" className='h-[90vh] w-[100vw] object-cover' /> */}
                         <div className='absolute w-[60vw] top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center'>
                             <p className="uppercase font-bold text-[30px] sm:text-[30px] md:text-[35px] lg:text-[40px] text-white">
                                 Simplifiez Votre Gestion Comptable avec Notre Expertise
@@ -59,8 +59,8 @@ const FirstCarousel = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='relative'>
-                        <img src={image.bgC2} alt="" className='h-[90vh] w-[100vw] object-cover' />
+                    <div className='relative h-[90vh] w-[100vw]'>
+                        {/* <img src={image.bgC2} alt="" className='h-[90vh] w-[100vw] object-cover' /> */}
                         <div className='absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center'>
                             <p className="pb-4 uppercase font-bold text-[30px] sm:text-[30px] md:text-[35px] lg:text-[40px] text-white text-center">
                                 Sous traitance Comptable
@@ -71,8 +71,8 @@ const FirstCarousel = () => {
                         </div>
                     </div>
 
-                    <div className='relative'>
-                        <img src={image.bgC3} alt="" className='h-[90vh] w-[100vw] object-cover' />
+                    <div className='relative h-[90vh] w-[100vw]'>
+                        {/* <img src={image.bgC3} alt="" className='h-[90vh] w-[100vw] object-cover' /> */}
                         <div className='absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center'>
                             <p className="pb-4 uppercase font-bold text-[30px] sm:text-[30px] md:text-[35px] lg:text-[40px] text-white text-center">
                                 Sous traitance paie et social
@@ -83,10 +83,10 @@ const FirstCarousel = () => {
                         </div>
                     </div>
 
-                    <div className='relative'>
-                        <img src={image.bgC4} alt="" className='h-[90vh] w-[100vw] object-cover' />
+                    <div className='relative h-[90vh] w-[100vw]'>
+                        {/* <img src={image.bgC4} alt="" className='h-[90vh] w-[100vw] object-cover' /> */}
                         <div className='absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center'>
-                            <p className="pb-4 uppercase font-bold text-[30px] sm:text-[30px] md:text-[35px] lg:text-[40px] text-white text-center">
+                            <p className="pb-4 uppercase font-bold text-[px] sm:text-[30px] md:text-[35px] lg:text-[40px] text-white text-center">
                                 Prestations Connexes
                             </p>
                             <button className='font-baloo inline-block hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] px-5 py-[2vh] font-semibold text-sm text-white border-2 border-secondary hover:bg-secondary hover:text-likeblack rounded-full transition duration-300 whitespace-nowrap'>

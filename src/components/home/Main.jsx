@@ -127,21 +127,23 @@ const Main = () => {
         <>
             <div>
                 {/* carousel part */}
-                <FirstCarousel />
+                <section className=''>
+                    <FirstCarousel />
+                </section>
 
 
                 {/* about */}
-                <section className="lg:px-[10vw] px-[7vw] lg:pt-[10vh] pt-[7vh] font-baloo " id='about'>
+                <section className="lg:px-[5vw] px-[7vw] lg:pt-[10vh] pt-[1vh] font-baloo lg:absolute lg:bottom-[-5vh]  " >
                     {/* <p className='font-baloo pt-4'>Confiez-nous la gestion de votre comptabilité et bénéficiez d'un service personnalisé alliant expertise française et marocaine. Simplifiez vos démarches et concentrez-vous sur l’essentiel.</p> */}
 
                     {/* border-l-[4px] pl-3 border-primary */}
-                    <p className=" text-primary font-sans text-center text-[19px] font-bold uppercase  ">À propos d'<span className=''>AC CENTER</span></p>
+                    {/* <p className=" text-primary font-sans text-center text-[19px] font-bold uppercase  ">À propos d'<span className=''>AC CENTER</span></p> */}
 
-                    <p className='pt-4'>AC Center, installé au Maroc, se spécialise dans la sous-traitance de la saisie comptable et de la gestion de la paie. Ces services sont assurés par des experts-comptables basés en France, garantissant un travail professionnel et de haute qualité adapté aux besoins des clients.</p>
+                    {/* <p className='pt-4'>AC Center, installé au Maroc, se spécialise dans la sous-traitance de la saisie comptable et de la gestion de la paie. Ces services sont assurés par des experts-comptables basés en France, garantissant un travail professionnel et de haute qualité adapté aux besoins des clients.</p> */}
 
-                    <div className="pt-10">
+                    <div className="">
                         <div className="max-w-7xl mx-auto">
-                            <p className=" text-likeblack font-medium border-l-[4px] pl-3 border-secondary">Pourquoi choisissent <span className='font-semibold'>AC CENTER</span>?</p>
+                            {/* <p className="lg:hidden text-likeblack font-medium border-l-[4px] pl-3 border-secondary">Pourquoi choisissent <span className='font-semibold'>AC CENTER</span>?</p> */}
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-3 gap-3 pt-5">
 
@@ -153,12 +155,12 @@ const Main = () => {
                                     <p className="text-white mt-2">Toutes vos démarches juridiques et comptables au même endroit.</p>
                                 </div>
 
-                                <div className="flex flex-col p-4 rounded-xl border-[1px] border-gray-300 bg-primary/5 cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] hover:scale-105 transition-transform duration-300">
-                                    <div className="text-primary rounded-full  mb-4">
+                                <div className="flex flex-col p-4 rounded-xl border-[1px] border-gray-300 bg-primary cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] hover:scale-105 transition-transform duration-300">
+                                    <div className="text-secondary rounded-full  mb-4">
                                         <FaClock className="text-3xl" />
                                     </div>
-                                    <p className="text-lg font-semibold">Rapidité</p>
-                                    <p className="text-likeblack mt-2">Traitement du dossier en 48h.</p>
+                                    <p className="text-lg font-semibold text-secondary">Rapidité</p>
+                                    <p className="text-white mt-2">Traitement du dossier en 48h.</p>
                                 </div>
 
                                 <div className="flex flex-col p-4 rounded-xl border-[1px] border-gray-300 bg-primary cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] hover:scale-105 transition-transform duration-300">
@@ -169,17 +171,29 @@ const Main = () => {
                                     <p className="text-white mt-2">Plus de 50 juristes diplômés à vos côtés. Basés en France.</p>
                                 </div>
 
-                                <div className="flex flex-col p-4 rounded-xl border-[1px] border-gray-300 bg-primary/5 cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] hover:scale-105 transition-transform duration-300">
-                                    <div className="text-primary rounded-full  mb-4">
+                                <div className="flex flex-col p-4 rounded-xl border-[1px] border-gray-300 bg-primary cursor-pointer hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] hover:scale-105 transition-transform duration-300">
+                                    <div className="text-secondary rounded-full  mb-4">
                                         <FaTag className="text-3xl" />
                                     </div>
-                                    <p className="text-lg font-semibold">Prix</p>
-                                    <p className="text-likeblack mt-2">Un rapport qualité / prix imbattable.</p>
+                                    <p className="text-lg font-semibold text-secondary">Prix</p>
+                                    <p className="text-white mt-2">Un rapport qualité / prix imbattable.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
+
+                {/* about */}
+                <section className='lg:px-[10vw] px-[7vw] lg:pt-[25vh] pt-[7vh] font-baloo' id='about'>
+                    <p className=" text-primary font-sans text-center text-[19px] font-bold uppercase  ">À propos d'<span className=''>AC CENTER</span></p>
+                    <div className='flex justify-between'>
+                        {/* <img src={image.logo} alt="" className='w-[20vw] object-cover' /> */}
+                        <p className='pt-4'><span className='font-semibold'>AC Center</span>, installé au Maroc, se spécialise dans la sous-traitance de la saisie comptable et de la gestion de la paie. Ces services sont assurés par des experts-comptables basés en France, garantissant un travail professionnel et de haute qualité adapté aux besoins des clients. AC Center offre des solutions flexibles et efficaces, permettant à ses clients de se concentrer sur leur cœur de métier tout en bénéficiant d’un service fiable et conforme aux normes les plus strictes. Grâce à une équipe d'experts qualifiés, l'entreprise assure une prise en charge complète des tâches comptables et fiscales, allant de la saisie des données à la production des déclarations fiscales. En choisissant AC Center, vous optez pour un partenaire de confiance qui saura répondre à vos besoins avec professionnalisme et rigueur.</p>
+                    </div>
+                </section>
+
+                
 
 
                 {/* services */}

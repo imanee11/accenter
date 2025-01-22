@@ -1,4 +1,5 @@
 export default{
+    logo : require("../assets/images/logo.png"),
     logo2 : require("../assets/images/logo2.png"),
     bg : require("../assets/images/bg.png"),
     bg2 : require("../assets/images/two-male-colleague-working-office.jpg"),

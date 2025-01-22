@@ -11,7 +11,7 @@
 }
 
 
-/* .hero {
+.hero {
   position: relative; 
   background-image: url(./assets/images/two-male-colleague-working-office.jpg);
   background-position: center;
@@ -19,7 +19,7 @@
   background-repeat: no-repeat;
   height: 95vh;
   background-attachment: fixed;
-} */
+}
 
 
 
@@ -35,7 +35,7 @@
 @media (max-width: 767px) {
   .hero {
     background-attachment: scroll; /* Fixed attachment can be problematic on phones */
-    height: 60vh; /* Further reduce height for smaller screens */
+    height: 90vh; /* Further reduce height for smaller screens */
   }
 }
 
