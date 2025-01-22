@@ -2,6 +2,9 @@ export default{
     logo2 : require("../assets/images/logo2.png"),
     bg : require("../assets/images/bg.png"),
     bg2 : require("../assets/images/two-male-colleague-working-office.jpg"),
+    bgC2 : require("../assets/images/bgC2.jpg"),
+    bgC3 : require("../assets/images/bgC3.jpg"),
+    bgC4 : require("../assets/images/bgC4.jpg"),
 
     pic1 : require("../assets/images/pic1.jpg"),
     pic2 : require("../assets/images/pic2.jpg"),
